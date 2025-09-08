@@ -84,7 +84,7 @@ const myButton = document.getElementById("myButton");
 
 myButton.addEventListener("click", () => {
   changeName.innerHTML = `<h1>Australia</h1>
-  <p>I love my country, there's no place like home but I want to japa first to experience other country</p>`;
+  <p>I love my country, there's no place like home but I want to JAPA first to experience other countries</p>`;
   if (myButton.classList.toggle("hide")) {
     myButton.textContent = "I Understand";
   }
