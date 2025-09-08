@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+    height: 100vh;
+    gap: 1rem;
+}
+
+.container button{
+    padding: 10px;
+    font-size: 18px;
+    text-transform: capitalize;
+    border: none;
+    background-color: aquamarine;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+#myDiv{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 50px;
+}
